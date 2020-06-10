@@ -1,4 +1,4 @@
-Treatment,Male,Age,Height,Weight,Inherit_Autosomal,Steroids,Prophylac,status_Detected
+Treatment,Sex,Age,Height,Weight,Inherit,Steroids,Prophylac,status_Detected
 0,0,12,147,62,1,0,0,1
 0,0,12,147,62,1,0,0,1
 0,0,12,147,62,1,0,0,0
