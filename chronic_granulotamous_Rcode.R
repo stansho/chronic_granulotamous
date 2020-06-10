@@ -1,5 +1,5 @@
 #Read the data
-chronic_gran <- read.csv("C:/Users/sitan/OneDrive/smbaproject/chromic_granulotamous/chronic_granulotamous_csv..csv")
+chronic_gran <- read.csv("https://github.com/stansho/chronic_granulotamous/blob/master/chronic_granulotamous_csv.csv")
 
 #Attach the data frame
 attach(chronic_gran)
@@ -28,14 +28,7 @@ xtabs(~ status_Detected + Sex, data=chronic_gran)
 logistic <- glm(status_Detected ~ Sex, data = chronic_gran, family = "binomial")
 summary(logistic)
 
-#Result: status_Detected = 0.7802 + (-0.3198)*Male
-#Log (odds) of female having heart disease is 0.7802
-#Log (odds) of male having heart disease is 0.4604
-#In logistic regression, we estimate the mean of the data and the variance is 'derived' from the mean. 
-#Since the variance is not estimated from the mean, it is possible that the variance is underestimated
-#AIC: Akaike Information Criterion is the residual deviance adjusted for the number of paramenters in the model. 
-#AIC can be used to compare one model to another
-
 #Model2: Predicting detection using ALL the variables
 logistic <- glm(status_Detected ~ Sex + Inherit + Steroids + Prophylac, data = chronic_gran, family = "binomial")
+summary(logistic)
 
