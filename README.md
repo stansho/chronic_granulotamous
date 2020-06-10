@@ -5,30 +5,30 @@ Treatment
 - 1 : Gamma Interferon
 
 Sex
--> 0: Female
--> 1: Male
+- 0: Female
+- 1: Male
 
 Age
--> age (years)
+- age (years)
 
 Height
--> height (cm)
+- height (cm)
 
 Weight
--> weight (kg)
+- weight (kg)
 
 Inherit (hereditary variable)
--> 0: X-Linked
--> 1: Autosomal
+- 0: X-Linked
+- 1: Autosomal
 
 Steroids (use of steroids)
--> 0: No
--> 1: Yes
+- 0: No
+- 1: Yes
 
 Prophylac (use of antibiotics)
--> 0: No
--> 1: Yes
+- 0: No
+- 1: Yes
 
 status_Detected
--> 0: Undetected
--> 1: Detected
+- 0: Undetected
+- 1: Detected
